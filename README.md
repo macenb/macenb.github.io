@@ -1,54 +1,84 @@
-This site contains bulk write ups from CTFs that I've competed in with the team [BYU Cyberia](https://ctftime.org/team/155711). The format of this home page includes a highlighted recent CTF I did as well as links to all challenge write ups by category
+<!-- markdownlint-disable-next-line -->
+<div align="center">
 
-Contact: @overllama on Discord : [LinkedIn](https://www.linkedin.com/in/macen-bird/)
+  <!-- markdownlint-disable-next-line -->
+  # Chirpy Jekyll Theme
 
-Note: if you're trying to get started in CTFs, check out my [resources page](./resources.md)! It's a list of all the stuff I've ever seen (and that looks semi-decent) as far as learning CTFs goes. Feel free to reach out to me about any of them (though if it says "potentially" I probably haven't personally used it)
+  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
 
-### Most Recent CTF
+  [![CI](https://img.shields.io/github/actions/workflow/status/cotes2020/jekyll-theme-chirpy/ci.yml?logo=github)][ci]&nbsp;
+  [![Codacy Badge](https://img.shields.io/codacy/grade/4e556876a3c54d5e8f2d2857c4f43894?logo=codacy)][codacy]&nbsp;
+  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy?color=goldenrod)][license]&nbsp;
+  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?&logo=RubyGems&logoColor=ghostwhite&label=gem&color=orange)][gem]&nbsp;
+  [![Open in Dev Containers](https://img.shields.io/badge/Dev_Containers-Open-deepskyblue?logo=linuxcontainers)][open-container]
 
-We got 46th in UIUCTF, which was honestly fantastic for how high the CTFTime points were. We're really happy with that. I wrote up my solve for [weirdcaml](./RE/weirdcaml/), since I thought it was neat. Check it out!
+  [**Live Demo** →][demo]
 
-### All Challenges
+  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
 
-#### RE
+</div>
 
-- [weirdcaml - UIUCTF 2025](./RE/weirdcaml/)
-- [Debugalyzer - DiceCTF Quals 2025](./RE/debugalyzer/)
-- [DoubleDelete - WolvCTF 2024](./RE/doubledelete/)
-- [Emoticonsole 1 - USCyberGames Open 2024](./RE/Emoticonsole/)
-- [Emoticonsole 2 - USCyberGames Open 2024](./RE/Emoticonsole%202/)
-- [Limited 2 - WolvCTF 2024](./RE/limited2/)
-- [Thank - BuckeyeCTF 2024](./RE/Thank/)
-- [Twisted - SAINTCON Hacker's Challenge 2024](./RE/Twisted/)
+## Features
 
-#### PWN
+- Dark Theme
+- Localized UI language
+- Pinned Posts on Home Page
+- Hierarchical Categories
+- Trending Tags
+- Table of Contents
+- Last Modified Date
+- Syntax Highlighting
+- Mathematical Expressions
+- Mermaid Diagrams & Flowcharts
+- Dark Mode Images
+- Embed Media
+- Comment Systems
+- Built-in Search
+- Atom Feeds
+- PWA
+- Web Analytics
+- SEO & Performance Optimization
 
-- [Calculator - BuckeyeCTF 2024](./PWN/calculator/)
-- [DISA - BuckeyeCTF 2024](./PWN/DISA/)
-- [Heap 3 - Exploit Education Phoenix](./PWN/heap_three.md)
+## Documentation
 
-#### Crypto
+To learn how to use, develop, and upgrade the project, please refer to the [Wiki][wiki].
 
-- [Blocked 2 - WolvCTF 2023](./Crypto/blocked2/)
-- [Crypto Slide Quest - SquareCTF 2023](./Crypto/crypto_slide_quest/)
-- [Electronical - BuckeyeCTF 2023](./Crypto/Electronical/)
-- [Encryptomatic - USCyberGames Open 2024](./Crypto/Encryptomatic/)
-- [Hashbrown - BuckeyeCTF 2024](./Crypto/Hashbrown/)
-- [Tag Series 1 - WolvCTF 2024](./Crypto/tagseries1/)
-- [Tag Series 3 - WolvCTF 2024](./Crypto/tagseries3/)
-- [zkwarmup - BuckeyeCTF 2024](./Crypto/zkwarmup/)
+## Contributing
 
-#### Forensics
+Contributions (_pull requests_, _issues_, and _discussions_) are what make the open-source community such an amazing place
+to learn, inspire, and create. Any contributions you make are greatly appreciated.
+For details, see the "[Contributing Guidelines][contribute-guide]".
 
-- [Smart Exfil - UNDCTF 2024](./Forensics/Smart%20Exfil/)
-- [Certified - USCyberGames Open 2024](./Forensics/Certified/)
-- [Emoji Hunt 2 - SquareCTF 2023](./Forensics/emoji_hunt_2-microwave/)
-- [My Daily Macros - BuckeyeCTF 2023](./Forensics/myDailyMacros/)
-- [Peeling Back Layers - DoD Cyber Challenge 2024](./Forensics/Peeling%20Layers/)
-- [Timing is Everytyhing - USCyberGames Open 2024](./Forensics/Timing%20is%20Everything/)
-- [Unravel - USCyberGames Open 2024](./Forensics/Unravel/)
-- [Wreck - BuckeyeCTF 2024](./Forensics/Wreck/)
+## Credits
 
-#### Web
+### Contributors
 
-- [Homecooked - BuckeyeCTF 2024](./Web/Homecooked/)
+Thanks to [all the contributors][contributors] involved in the development of the project!
+
+[![all-contributors](https://contrib.rocks/image?repo=cotes2020/jekyll-theme-chirpy&columns=16)][contributors]
+<sub> — Made with [contrib.rocks](https://contrib.rocks)</sub>
+
+### Third-Party Assets
+
+This project is built on the [Jekyll][jekyllrb] ecosystem and some [great libraries][lib], and is developed using [VS Code][vscode] as well as tools provided by [JetBrains][jetbrains] under a non-commercial open-source software license.
+
+The avatar and favicon for the project's website are from [ClipartMAX][clipartmax].
+
+## License
+
+This project is published under [MIT License][license].
+
+[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+[ci]: https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
+[codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
+[license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
+[open-container]: https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/cotes2020/jekyll-theme-chirpy
+[jekyllrb]: https://jekyllrb.com/
+[clipartmax]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
+[demo]: https://cotes2020.github.io/chirpy-demo/
+[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
+[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md
+[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
+[lib]: https://github.com/cotes2020/chirpy-static-assets
+[vscode]: https://code.visualstudio.com/
+[jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
