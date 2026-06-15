@@ -4,7 +4,7 @@ icon: fas fa-code
 order: 4
 ---
 
-[START HERE](https://primer.picoctf.com/) - PicoCTF's personal primer for starting CTFs. This will teach you the basics of literally everything you would need to know to start it off
+[START HERE](https://primer.cylabacademy.org/) - (The Website Formerly Known As) PicoCTF's personal primer for starting CTFs. This will teach you the basics of literally everything you would need to know to start it off
 
 ### Rev
 - [Microcorruption](https://microcorruption.com/) - great reversing exercises on embedded
